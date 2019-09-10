@@ -1,5 +1,6 @@
 # AzureArchiveBlobs
-**A PowerShell tool used to set all eligible blobs (Block) a specified storage account to 'Archive'
+
+A PowerShell tool used to set all eligible blobs (Block) a specified storage account to 'Archive'
 reducing storage costs to approximately 1/10th the price of Hot blobs. Do note that while the cost of 'Archive' storage is significantly reduced, the cost to enumerate/retrieve is significantly higher. Also, when blobs are descripted as "Archive", early deletion fees apply. Please do your own research and cost analysis prior to leverage this tool. More information regarding Azure Blob pricing can be found here: https://azure.microsoft.com/en-us/pricing/details/storage/
 
 ## Getting started
@@ -19,7 +20,7 @@ NOTE: This is not parameterized and requires manual editing for the time being.
 4. Confirm the objects in scope were appropriately descripted as "Archive"
    * This can be done from within the Azure Portal, Azure Storage Explorer, or of course within az cli or Azure PowerShell
 
-** There is no output when running this PowerShell
+Note: There is no output when running this PowerShell
 
 ## Features
 
