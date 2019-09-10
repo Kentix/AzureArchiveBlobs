@@ -19,7 +19,7 @@ NOTE: This is not parameterized and requires manual editing for the time being.
 4. Confirm the objects in scope were appropriately descripted as "Archive"
    * This can be done from within the Azure Portal, Azure Storage Explorer, or of course within az cli or Azure PowerShell
 
-Note: There is no output when running this PowerShell
+**Note:** There is no output when running this PowerShell
 
 ## Features
 
