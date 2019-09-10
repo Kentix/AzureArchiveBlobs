@@ -1,5 +1,6 @@
 # AzureArchiveBlobs
-** A PowerShell tool used to set all eligible blobs (Block) a specified storage account to 'Archive', reducing storage costs to approximately 1/10th the price of Hot blobs. Do note that while the cost of 'Archive' storage is significantly reduced, the cost to enumerate/retrieve is significantly higher. Also, when blobs are descripted as "Archive", early deletion fees apply. Please do your own research and cost analysis prior to leverage this tool. More information regarding Azure Blob pricing can be found here: https://azure.microsoft.com/en-us/pricing/details/storage/
+**A PowerShell tool used to set all eligible blobs (Block) a specified storage account to 'Archive'
+reducing storage costs to approximately 1/10th the price of Hot blobs. Do note that while the cost of 'Archive' storage is significantly reduced, the cost to enumerate/retrieve is significantly higher. Also, when blobs are descripted as "Archive", early deletion fees apply. Please do your own research and cost analysis prior to leverage this tool. More information regarding Azure Blob pricing can be found here: https://azure.microsoft.com/en-us/pricing/details/storage/
 
 ## Getting started
 
